@@ -19,17 +19,3 @@ npx serve -l 8765
 ```
 
 Stop the server with **Ctrl+C** when you are done.
-
-## Production (Vercel)
-
-Hosted on the **Trevor’s Pro** team (`trevsm-s-team`), not the Hobby team.
-
-**URL:** **https://raptor-safari.vercel.app/** (GitHub integration is on this Pro project.)
-
-Manual deploy from this directory:
-
-```bash
-vercel --prod --scope trevsm-s-team
-```
-
-If the site asks for a Vercel login in the browser, open the project in the [Vercel dashboard](https://vercel.com) → **Settings** → **Deployment Protection** and allow public access for the environments you want (for a small static game, turning protection off on Production is typical).
